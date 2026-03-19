@@ -262,7 +262,7 @@ For complex tasks, the agent pulls in **supporting files** from `references/`, `
 <details>
 <summary><b>🔍 Memory forensics with Volatility3</b> — DFIR domain</summary>
 
-```yaml
+````yaml
 ---
 name: performing-memory-forensics-with-volatility3
 description: >-
@@ -368,14 +368,14 @@ vol -f memory.raw windows.cmdline
 - [ ] Suspicious binaries dumped for downstream malware analysis
 - [ ] IOCs extracted (IPs, domains, file hashes, mutex names)
 - [ ] Findings documented in incident report with timestamps
-```
+````
 
 </details>
 
 <details>
 <summary><b>🦠 Reverse engineering .NET malware with dnSpy</b> — Malware Analysis domain</summary>
 
-```yaml
+````yaml
 ---
 name: analyzing-dotnet-malware-with-dnspy
 description: >-
@@ -494,7 +494,7 @@ Write YARA rule targeting unique strings or byte patterns.
 - [ ] Capabilities mapped to MITRE ATT&CK techniques
 - [ ] IOC list exported in structured format (STIX, OpenIOC, or CSV)
 - [ ] YARA detection rule written and tested against sample
-```
+````
 
 </details>
 
