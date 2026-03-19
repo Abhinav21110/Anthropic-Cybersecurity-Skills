@@ -12,3 +12,4 @@ __pycache__/
 Thumbs.db
 *.swp
 launch/
+extract_attack.py
